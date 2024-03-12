@@ -9,24 +9,24 @@ import CustomHook from "./CustomHook";
 function Projects() {
   const [listProjects] = useState([
     {
-      name: "Project Real-time chating in website",
-      des: "Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.",
-      mission: "Back-end Developer, system analysis and design",
-      language: "HTML5, CSS3, React JS, SockerIO,...",
+      name: "Netflix",
+      des: "Small description",
+      mission: "Front-end Developer, system analysis and design",
+      language: "HTML5, CSS3, React JS,...",
       images: "/project1.PNG",
     },
     {
-      name: "Project Real-time chating in website",
-      des: "Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.",
-      mission: "Back-end Developer, system analysis and design",
-      language: "HTML5, CSS3, React JS, SockerIO,...",
+      name: "Weather App",
+      des: "Small description",
+      mission: "Back-end Developer, Front-end Developer and design",
+      language: "HTML5, CSS3, JS, GIT,...",
       images: "/project2.PNG",
     },
     {
-      name: "Project Real-time chating in website",
-      des: "Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.",
+      name: "Project ",
+      des: "Small description.",
       mission: "Back-end Developer, system analysis and design",
-      language: "HTML5, CSS3, React JS, SockerIO,...",
+      language: "HTML5, CSS3, React JS,...",
       images: "/project2.PNG",
     },
   ]);
@@ -36,13 +36,7 @@ function Projects() {
   return (
     <section className="projects" ref={scrollTab}>
       <div className="title" ref={(el) => el && divs.current.push(el)}>
-        This is my Projects
-      </div>
-      <div className="des" ref={(el) => el && divs.current.push(el)}>
-        {/* 20 */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-        perspiciatis quae veniam amet nesciunt voluptatibus quis consectetur
-        consequatur quisquam harum.
+        My Projects
       </div>
       <div className="list">
         {listProjects.map((value, key) => (
