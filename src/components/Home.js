@@ -13,7 +13,7 @@ const Home = () => {
         </div>
         < a href="/resume.pdf" target="_blank" rel="noopener noreferrer"> 
         Download My CV </a>
-
+</div>
         <div className="avatar">
             <div className="card">
                 <img src="/avatar.jpg" alt=""/>
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-      </div>
+      
     </section>
   );
 };

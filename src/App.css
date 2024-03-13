@@ -73,7 +73,7 @@ section {
   padding: 50px;
   box-sizing: border-box;
   top: 0;
-}
+
 
 &.home {
   padding-top: 150px;
@@ -83,6 +83,8 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+}
+
   & .content {
     font-family: "MuseoModerno", system-ui;
     & .name {
@@ -104,7 +106,7 @@ section {
         animation: shine 5s linear infinite;
       }
     }
-    & .des {
+    & .description {
       color: #eee5;
       margin: 30px 0;
       border-left: 0.7em solid #e945e3;
