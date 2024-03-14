@@ -13,21 +13,37 @@ function Projects() {
       des: "Small description",
       mission: "Front-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS,...",
-      images: "/project1.PNG",
+      images: "/netflix.png",
     },
     {
       name: "Weather App",
       des: "Small description",
       mission: "Back-end Developer, Front-end Developer and design",
       language: "HTML5, CSS3, JS, GIT,...",
-      images: "/project2.PNG",
+      images: "/weather.PNG",
     },
     {
-      name: "Project ",
+      name: "Portfolio ",
       des: "Small description.",
       mission: "Back-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS,...",
-      images: "/project2.PNG",
+      images: "/portfolio.PNG",
+    },
+
+    {
+      name: "Video Game",
+      des: "Small description.",
+      mission: "Back-end Developer, system analysis and design",
+      language: "HTML5, CSS3, React JS,...",
+      images: "/Rock.PNG",
+    },
+
+    {
+      name: "Product Landing Page",
+      des: "Small description.",
+      mission: "Back-end Developer, system analysis and design",
+      language: "HTML5, CSS3, React JS,...",
+      images: "/fishing.PNG",
     },
   ]);
   const divs = useRef([]);
