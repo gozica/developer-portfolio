@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import CustomHook from "./CustomHook";
 
+
 function Projects() {
   const [listProjects] = useState([
     {
@@ -14,6 +15,7 @@ function Projects() {
       mission: "Front-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS,...",
       images: "/netflix.png",
+      proj: "https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidyraj6fSEAxWw38kDHX0TDz8QPAgJ",
     },
     {
       name: "Weather App",
@@ -52,7 +54,7 @@ function Projects() {
   return (
     <section className="projects" ref={scrollTab}>
       <div className="title" ref={(el) => el && divs.current.push(el)}>
-        My Projects
+        Projects
       </div>
       <div className="list">
         {listProjects.map((value, key) => (
@@ -64,13 +66,20 @@ function Projects() {
             <div className="images">
               <img src={value.images} alt="" />
             </div>
+
             <div className="content">
               <h3>{value.name}</h3>
+              <div className="proj">
+                <a href={value.proj} target="_blank" rel="noopener noreferrer">
+                Project</a>
+              </div>
+
               <div className="des">{value.des}</div>
               <div className="mission">
                 <div>
                   <FontAwesomeIcon icon={faPersonCircleQuestion} />
                 </div>
+
                 <div>
                   <h4>Mission</h4>
                   <div className="des">{value.mission}</div>

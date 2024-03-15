@@ -49,7 +49,7 @@ function Skills() {
   return (
     <section className="skills" ref={scrollTab}>
       <div className="title" ref={(el) => el && divs.current.push(el)}>
-        My Skills
+        Skills
       </div>
 
       <div className="list">
