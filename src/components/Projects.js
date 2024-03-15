@@ -15,7 +15,7 @@ function Projects() {
       mission: "Front-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS,...",
       images: "/netflix.png",
-      proj: "https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidyraj6fSEAxWw38kDHX0TDz8QPAgJ",
+      proj: "https://65f456d18d739204525ed391--thunderous-halva-93922b.netlify.app/",
     },
     {
       name: "Weather App",
@@ -23,6 +23,7 @@ function Projects() {
       mission: "Back-end Developer, Front-end Developer and design",
       language: "HTML5, CSS3, JS, GIT,...",
       images: "/weather.PNG",
+      proj: "https://quiet-boba-558a12.netlify.app/",
     },
     {
       name: "Portfolio ",
@@ -38,6 +39,7 @@ function Projects() {
       mission: "Back-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS,...",
       images: "/Rock.PNG",
+      proj: "https://cheerful-crepe-1253af.netlify.app/",
     },
 
     {
@@ -46,6 +48,7 @@ function Projects() {
       mission: "Back-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS,...",
       images: "/fishing.PNG",
+      proj: "https://fabulous-florentine-5cfffd.netlify.app/",
     },
   ]);
   const divs = useRef([]);

@@ -306,6 +306,16 @@ section.contacts{
         max-width: 500px;
         margin: auto;
     }
+    
+& h4{
+        color:#7be728;
+        text-align: center;
+        font-size: larger;
+        max-width: 500px;
+        margin: auto;
+    }
+
+
     & .list{
         text-align: center;
         & .item{
