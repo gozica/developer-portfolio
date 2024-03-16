@@ -30,7 +30,8 @@ function Projects() {
       des: "Developed a sleek personal portfolio website using React.js, CSS, and HTML to showcase skills, projects, and experiences with a modern and dynamic design.",
       mission: "Front-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS, GIT",
-      images: "https://agzc.netlify.app/",
+      images: "/portfolio.PNG",
+      proj: "https://agzc.netlify.app/",
     },
 
     {
