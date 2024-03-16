@@ -28,7 +28,7 @@ function Contacts() {
             <div><h4>{value.value}</h4></div>
             <div className="link">
               <a href={value.github} target="_blank" rel="noopener noreferrer">
-                <h3>Link</h3>
+                <h3>Click me</h3>
               </a>
             </div>
 
