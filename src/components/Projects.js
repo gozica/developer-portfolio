@@ -28,7 +28,7 @@ function Projects() {
     {
       name: "Portfolio ",
       des: "Developed a sleek personal portfolio website using React.js, CSS, and HTML to showcase skills, projects, and experiences with a modern and dynamic design.",
-      mission: "Back-end Developer, system analysis and design",
+      mission: "Front-end Developer, system analysis and design",
       language: "HTML5, CSS3, React JS, GIT",
       images: "/portfolio.PNG",
     },
@@ -46,7 +46,7 @@ function Projects() {
       name: "Product Landing Page",
       des: "Developed a product lending page using HTML, CSS, and JavaScript to facilitate easy navigation, showcase available items, and streamline the borrowing process for users.",
       mission: "Front-end Developer, system analysis and design",
-      language: "HTML5, CSS3, React JS,...",
+      language: "HTML5, CSS3, Javascript",
       images: "/fishing.PNG",
       proj: "https://fabulous-florentine-5cfffd.netlify.app/",
     },
