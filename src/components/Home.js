@@ -14,9 +14,7 @@ function Home() {
           I'm your coding whiz by day, diving into true crime and books by
           night, and always up for some outdoor adventure.
         </div>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-          Download My CV{" "}
-        </a>
+      
       </div>
       <div className="avatar">
         <div className="card">
