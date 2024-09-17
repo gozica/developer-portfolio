@@ -23,7 +23,7 @@ function Projects() {
       mission: "Back-end Developer, Front-end Developer and design",
       language: "HTML5, CSS3, JS, API, GIT, InVision",
       images: "/weather.PNG",
-      proj: "https://quiet-boba-558a12.netlify.app/",
+      proj: "https://autumnweatherapp.netlify.app/",
     },
     {
       name: "Portfolio ",
