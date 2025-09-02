@@ -56,6 +56,16 @@ function Projects() {
     },
 
     {
+  name: "FormFlow",
+  des: "Built a responsive and interactive form validation project using JavaScript, HTML, and CSS, featuring real-time input validation, dynamic error/success indicators, and a modal confirmation for successful submission.",
+  mission: "Front-end Developer and UX Designer",
+  language: "HTML5, CSS3, JavaScript, Font Awesome, Git",
+  images: "/formflow.PNG",
+  proj: "https://futureformvalidator.netlify.app/",
+},
+
+
+    {
   name: "World Clock",
   des: "Developed a real-time world clock application using vanilla JavaScript, allowing users to track cities across different time zones with live updates every second.",
   mission: "Front-End Developer and Designer",
@@ -75,7 +85,7 @@ function Projects() {
 
     {
       name: "Product Landing Page",
-      des: "Developed a product lending page using HTML, CSS, and JavaScript to facilitate easy navigation, showcase available items, and streamline the borrowing process for users.",
+      des: "Developed my first project a product lending page using HTML, CSS, and JavaScript to facilitate easy navigation, showcase available items, and streamline the borrowing process for users.",
       mission: "Front-end Developer, system analysis and design",
       language: "HTML5, CSS3, Javascript",
       images: "/fishing.PNG",
