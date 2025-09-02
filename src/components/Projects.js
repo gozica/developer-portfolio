@@ -10,6 +10,25 @@ import CustomHook from "./CustomHook";
 function Projects() {
   const [listProjects] = useState([
     {
+      name: "SpookyFlix",
+      des: "Developed a fun movie search application tailored for spooky season, using React and The Movie Database (TMDb) API to fetch and display horror and thriller films with an interactive UI.",
+      mission: "Front-end Developer, API integration, UI/UX design",
+      language: "React, JavaScript, CSS3, API, Git",
+      images: "/spookyflix.png",
+      proj: "https://spookyflix.netlify.app/",
+    },
+
+    {
+      name: "VirtueBot AI-Powered Stoic Quote Generator",
+      des: "Built an AI-powered quote generator that delivers real-time Stoic and philosophical wisdom by integrating live APIs, handling JSON responses, and rendering personalized user interactions.",
+      mission:
+        "Front-end Developer, API integration, Artificial Intelligence, Promt Engineering",
+      language: "JavaScript, Node.js, AI API, Git",
+      images: "/stoic.png",
+      proj: "https://stoicmindgen.netlify.app/",
+    },
+
+    {
       name: "Netflix Clone",
       des: " Created a Netflix clone using React.js to replicate the platform's interface and functionality, providing users with a familiar and immersive streaming experience.  ",
       mission: "Front-end Developer, system analysis and design",
@@ -17,6 +36,16 @@ function Projects() {
       images: "/netflix.png",
       proj: "https://65f456d18d739204525ed391--thunderous-halva-93922b.netlify.app/",
     },
+
+    {
+      name: "DevShowcase Interactive Portfolio",
+      des: "Developed a sleek personal portfolio website using React.js, CSS, and HTML to showcase skills, projects, and experiences with a modern and dynamic design.",
+      mission: "Front-end Developer, system analysis and design",
+      language: "HTML5, CSS3, React JS, GIT",
+      images: "/portfolio.PNG",
+      proj: "https://agzc.netlify.app/",
+    },
+
     {
       name: "Weather App",
       des: "Created a resilient full-stack weather forecasting application using JavaScript, HTML, and CSS, seamlessly integrating Open Weather's REST API to efficiently retrieve data and enhance functionality.",
@@ -24,14 +53,6 @@ function Projects() {
       language: "HTML5, CSS3, JS, API, GIT, InVision",
       images: "/weather.PNG",
       proj: "https://autumnweatherapp.netlify.app/",
-    },
-    {
-      name: "Portfolio ",
-      des: "Developed a sleek personal portfolio website using React.js, CSS, and HTML to showcase skills, projects, and experiences with a modern and dynamic design.",
-      mission: "Front-end Developer, system analysis and design",
-      language: "HTML5, CSS3, React JS, GIT",
-      images: "/portfolio.PNG",
-      proj: "https://agzc.netlify.app/",
     },
 
     {
