@@ -56,6 +56,15 @@ function Projects() {
     },
 
     {
+  name: "World Clock",
+  des: "Developed a real-time world clock application using vanilla JavaScript, allowing users to track cities across different time zones with live updates every second.",
+  mission: "Front-End Developer and Designer",
+  language: "HTML5, CSS3, JavaScript, Netlify",
+  images: "/clock.png",
+  proj: "https://gamingworldclock.netlify.app/",
+},
+
+    {
       name: "Video Game",
       des: "Created a rock-paper-scissors video game using JavaScript to provide an interactive and enjoyable gaming experience with user-friendly controls and dynamic gameplay.",
       mission: "Front-end Developer, testing and design",
